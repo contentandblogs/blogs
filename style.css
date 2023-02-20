@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+    background-color: #f6f6f2;
+}
+.hero{
+    background:radial-gradient(#3880873d,#38808790), url('imgs/mehdi-messrro-yef79KkAguA-unsplash\ \(1\).jpg');
+    height: 700px;
+    background-size: cover;
+}
+.hero h1{
+    color: #badfe7;
+    font-weight: bolder;
+    font-size: 4rem;
+    
+}
+.hero p{
+    color:#f6f6f2;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+.box img{
+    width: 300px;
+    height: 300px;
+ 
+}
+.section-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+.section-img h3{
+    font-size: 5rem;
+    font-weight: 600;
+}
+.political{
+    background:radial-gradient(rgba(0, 0, 0, 0.448),rgba(0, 0, 0, 0.271)), url('https://images.unsplash.com/photo-1561708465-618441a93b7c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80');
+    height: 400px;
+    background-position: 100% 40%;
+    background-size: cover;
+
+}
+.business{
+    background:radial-gradient(rgba(0, 0, 0, 0.448),rgba(0, 0, 0, 0.271)), url('https://images.unsplash.com/photo-1560221328-12fe60f83ab8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80');
+    height: 400px;
+    background-position: 100% 40%;
+    background-size: cover;
+}
+.sports{
+    background:radial-gradient(rgba(0, 0, 0, 0.448),rgba(0, 0, 0, 0.271)), url('https://images.unsplash.com/photo-1485400031595-976c74cf4e25?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    height: 400px;
+    background-position: 100% 40%;
+    background-size: cover;
+}
+.technology{
+    background:radial-gradient(rgba(0, 0, 0, 0.448),rgba(0, 0, 0, 0.271)), url('https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+    height: 400px;
+    background-position: 100% 40%;
+    background-size: cover;
+}
+
+footer{
+    background-color: #1c3c3f;
+    color: white;
+}
+.row{
+    width: 100%;
+}
+p{ display:inline-block; 
+    max-width:100%; 
+    max-height: 100px;
+    overflow:hidden; 
+    text-overflow:ellipsis; 
+    white-space:wrap; 
+  }
